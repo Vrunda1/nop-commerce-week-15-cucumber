@@ -9,12 +9,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
+import java.awt.*;
 import java.util.List;
 
 
 public class DesktopPage extends Utility {
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(Desktop.class.getName());
     public DesktopPage(){
         PageFactory.initElements(driver,this);
     }

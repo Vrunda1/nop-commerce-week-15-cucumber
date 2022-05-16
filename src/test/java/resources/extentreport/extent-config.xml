@@ -14,7 +14,7 @@
         <documentTitle>NopCommerce - Cucumber Framework</documentTitle>
 
         <!-- report name - displayed at top-nav -->
-        <reportName>Cucumber Report</reportName>
+        <reportName>NopCommerce Report</reportName>
 
         <!-- global date format override -->  <!-- defaults to yyyy-MM-dd -->
         <dateFormat>yyyy-MM-dd</dateFormat>
