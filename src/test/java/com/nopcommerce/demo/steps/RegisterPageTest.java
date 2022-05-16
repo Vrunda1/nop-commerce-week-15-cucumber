@@ -110,7 +110,6 @@ public class RegisterPageTest {
 
     }
 
-
     @Then("^I should see the\"([^\"]*)\" in regostration completed$")
     public void iShouldSeeTheInRegostrationCompleted(String completeMsg) {
         Assert.assertEquals("Error not displayed",completeMsg,new RegisterPage().verifyRegistrationcomplete());

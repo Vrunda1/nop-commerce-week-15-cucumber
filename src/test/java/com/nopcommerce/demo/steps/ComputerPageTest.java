@@ -80,5 +80,4 @@ public class ComputerPageTest {
         Assert.assertEquals("Product has been not added to cart ", message, new BuildYourOwnComputerPage().verifyProductAddedMessage());
     }
 
-
 }
